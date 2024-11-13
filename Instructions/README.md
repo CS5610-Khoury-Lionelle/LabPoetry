@@ -40,7 +40,10 @@ For this lab you will write a responsive website that works well both on mobile 
 4. Add Typescript
    ```terminal
    npm i --save typescript
+   npm install --save-dev @types/bootstrap
+   tsc --init
    ```
+   This will create a tsconfig.json file in your project directory.
 5. Add sass
    ```terminal
    npm i --save-dev sass
@@ -53,8 +56,8 @@ For this lab you will write a responsive website that works well both on mobile 
    ```
    Will allow us to use github pages for hosting. 
 7. Add the following folders and files. For adding files, you can either use `touch` or `code` depending on your system. For example, to create an empty main.ts file, you can use `code src/js/main.ts` then save the empty file.
-   * Add directories: src, src/js, src/sass
-   * Create files: src/js/main.ts, src/sass/styles.scss, src/index.html, vite.config.js
+   * Add directories: src, src/js, src/scss
+   * Create files: src/js/main.ts, src/scss/styles.scss, src/index.html, vite.config.js
 
 By the end of step seven, your project directory should look like the following.
 
