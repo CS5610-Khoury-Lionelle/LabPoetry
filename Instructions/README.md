@@ -54,7 +54,7 @@ For this lab you will write a responsive website that works well both on mobile 
    Will allow us to use github pages for hosting. 
 7. Add the following folders and files. For adding files, you can either use `touch` or `code` depending on your system. For example, to create an empty main.ts file, you can use `code src/js/main.ts` then save the empty file.
    * Add directories: src, src/js, src/sass
-   * Create files: src/js/main.ts, src/sass/styles.scss, vite.config.js
+   * Create files: src/js/main.ts, src/sass/styles.scss, src/index.html, vite.config.js
 
 By the end of step seven, your project directory should look like the following.
 
